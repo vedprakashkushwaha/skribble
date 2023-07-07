@@ -2351,9 +2351,18 @@ function getWords() {
 
 function count() {
     let count = document.getElementById("count").value;
-    count = parseInt(count);
-    document.getElementById("word").value = "_".repeat(count);
-    sameLength = words.filter(word => word.length == len);
+    let countList = count.split(",");
+    let len = countList.length;
+    let word = "";
+    for (let i = 0; i < len; i++) {
+        let tamp = parseInt(countList[i]);
+        word += "_".repeat(tamp);
+        if (i != len - 1) {
+            word += " ";
+        }
+    }
+    document.getElementById("word").value = word;
+    
 }
 
 

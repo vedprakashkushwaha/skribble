@@ -1,5 +1,12 @@
 
 let words = [
+     "tee",
+     "photo",
+     "rifle",
+     "sign",
+     "juicer",
+     "nachos",
+     "tombstone",
     "honeymoon",
     "yoga",
     "chile",

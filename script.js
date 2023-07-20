@@ -1,4 +1,3 @@
-
 let words = [
     "jump",
     "bone",
@@ -8,13 +7,13 @@ let words = [
     "spicy",
     "dune",
     "fried chicken",
-     "tee",
-     "photo",
-     "rifle",
-     "sign",
-     "juicer",
-     "nachos",
-     "tombstone",
+    "tee",
+    "photo",
+    "rifle",
+    "sign",
+    "juicer",
+    "nachos",
+    "tombstone",
     "honeymoon",
     "yoga",
     "chile",
@@ -2329,18 +2328,18 @@ let words = [
 // Get the input field
 var textInput = document.getElementById("word");
 
-textInput.addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    getWords()
-  }
+textInput.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        getWords()
+    }
 });
 
 let countInput = document.getElementById("count");
-countInput.addEventListener("keypress", function(event) {
+countInput.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
-      event.preventDefault();
-      count()
+        event.preventDefault();
+        count()
     }
 });
 
@@ -2377,7 +2376,7 @@ function count() {
         }
     }
     document.getElementById("word").value = word;
-    
+
 }
 
 

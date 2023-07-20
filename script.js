@@ -1,5 +1,13 @@
 
 let words = [
+    "jump",
+    "bone",
+    "friend",
+    "median",
+    "Pizza Hut",
+    "spicy",
+    "dune",
+    "fried chicken",
      "tee",
      "photo",
      "rifle",
